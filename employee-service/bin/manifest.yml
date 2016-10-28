@@ -1,0 +1,11 @@
+---
+applications:
+- name: employee-service
+  instances: 1
+  memory: 512M
+  host: ems-employee-service
+  path: target/employee-service-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  random-route: true
+  services:
+   - ems-db

@@ -1,0 +1,7 @@
+com\cg\rp\service\impl\ProjectAllocationServiceImpl.class
+com\cg\rp\repository\ProjectAllocationRepository.class
+com\cg\rp\model\Employee.class
+com\cg\rp\service\ProjectAllocationService.class
+com\cg\rp\ProjectAllocationServiceApplication.class
+com\cg\rp\model\ProjectAllocation.class
+com\cg\rp\controller\ProjectAllocationController.class

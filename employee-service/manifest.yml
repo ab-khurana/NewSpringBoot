@@ -1,0 +1,8 @@
+---
+applications:
+- name: project-allocation-service-green
+  instances: 1
+  memory: 512M
+  path: target/employee-service-0.0.1-SNAPSHOT.jar
+  services:
+   - ems-db
